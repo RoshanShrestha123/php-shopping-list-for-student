@@ -1,6 +1,6 @@
 <?php
 session_start();
-$shopping_list = $_SESSION['manjan'];
+$shopping_list = $_SESSION['anjan'] ?? [];
 
 ?>
 
